@@ -1,0 +1,116 @@
+.menu-bar label{
+  width: 24px;
+  height: 24px;
+  display: flex;
+  cursor: pointer;
+}
+
+#menu{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+header.header-cofee{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 30px 18px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--tertiary-color);
+}
+
+div.logo{
+    display: inline-block;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.logo p{
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 9.5%;
+}
+
+.logo span{
+    font-size: 22px;
+}
+
+.logo img{
+    width: 50px;
+    height: 26px;
+}
+
+.search-input{
+    display: flex;
+    align-items: center;
+}
+
+.input-busca {
+  width: 120px;
+  height: 28px;
+  padding: 0 8px 0 25px;
+  font-family: var(--font-primary-text);
+  line-height: 28px;
+  background-image: url(../img/akar-icons_search.svg);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 15px 15px;
+  border: 1px solid var(--primary-color);
+  border-radius: 35px;
+  
+}
+
+.input-busca::placeholder{
+    font-size: 12px;
+    color: var(--primary-color);
+}
+
+.search-input img{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.header-nav{
+    padding: 20px 20px;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+}
+
+#menu:checked ~ .header-nav{
+    display: flex;
+}
+
+.header-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav ul li a{
+    text-decoration: none ;
+    margin: 0;
+    font-size: 15px;
+    font-family: var(--font-text-link);
+    letter-spacing: 4%;
+    color: var(--primary-color);
+}
+
+.header-nav ul li a:hover{
+    color: var(--secundary-color);
+}
+
+.header-nav ul li span{
+    font-size: 18px;
+}
