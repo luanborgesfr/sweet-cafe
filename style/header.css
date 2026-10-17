@@ -99,6 +99,7 @@ div.logo {
   display: flex;
   gap: 45px;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .header-nav ul li a {
@@ -130,5 +131,41 @@ div.logo {
     padding: 0;
     background-color: transparent;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header.header-cofee {
+    padding: 30px 70px;
+  }
+
+  .logo p {
+    font-size: 25px;
+  }
+
+  .logo img {
+    width: 65px;
+    height: 39px;
+  }
+
+  .header-nav {
+    width: 420px;
+  }
+
+  .header-nav ul {
+    gap: 60px;
+  }
+
+  .header-nav ul li a {
+    font-size: 20px;
+  }
+
+  .input-busca {
+    width: 165px;
+  }
+
+  .search-input img {
+    width: 25px;
+    height: 24px;
   }
 }
