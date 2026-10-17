@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'IM Fell Grat Primer SC';
+    src: url(../fonts/IMFellGreatPrimerSC-Regular.ttf);
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'IM Fell Double Pica';
+    src: url(../fonts/IMFellGreatPrimerSC-Regular.ttf);
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter_18pt-Regular.ttf);
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Poppins Semibold';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+    font-display: swap;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-display: swap;
+    font-weight: 500;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-text-link:'IM Fell Grat Primer SC';
+    --font-primary-title:'Poppins Semibold';
+    --font-primary-text: 'IM Fell Double Pica';
+    --font-secundary-text: 'Inter';
+    --font-tertiary-text: 'Poppins Medium';
+
+    --primary-color: #000 ;
+    --secundary-color: #FF902B;
+    --tertiary-color: #2F2105;
+}
